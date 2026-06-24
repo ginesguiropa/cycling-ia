@@ -26,7 +26,7 @@ Debes entregar un análisis completo de la ruta que incluya obligatoriamente:
 - Si hay información suficiente (desnivel, segmentos, intensidad, viento), ajusta la duración con una corrección razonada y explícala.
 - Devuelve la duración en formato `hh:mm` y en horas decimales.
 
-### 2) Tabla con resumen de intervalos y metereología
+### 2) Tabla con resumen de intervalos y meteorología
 
 - Genera intervalos según la oreografía por kms y que tiempo nos llevaría. Los intervalos podrían ser llano, subida de un puerto, bajada, etc.
 - Para cada intervalo y teniendo en cuenta la hora de inicio, consulta la fuente meteorológica online, si no fuera posible indicalo y continua sin esa información al menos:
@@ -52,8 +52,8 @@ Debes entregar un análisis completo de la ruta que incluya obligatoriamente:
 ### 4) Plan de alimentación (carbohidratos/hora)
 
 - Usa como base:
-  - FTP del ciclista (`cyclist profile json`)
-  - Potencia media objetivo (`planned route json`)
+  - FTP del ciclista y edad (`cyclist profile json`)
+  - Ritmo que el usuario quiere realizar la ruta selected_pace (`planned route json`)
   - Duración estimada
   - Temperatura/estrés térmico y exigencia de la ruta
 - Estima la intensidad relativa:
@@ -80,15 +80,15 @@ Responde en español con esta estructura exacta:
 
 1. `Resumen ejecutivo` (5-8 líneas)
 2. `Duración estimada de la ruta`
-   - Distancia, velocidad media usada, duración calculada, ajustes aplicados y hora de llegada
-3. `Tabla con resumen de intervalos y metereología`
+   - Distancia, velocidad media usada, duración calculada y hora de llegada
+3. `Tabla con resumen de intervalos y meteorología`
 4. `Mapa de ruta`
 5. `Impacto del clima en el rendimiento`
    - Puntos clave sobre calor/frío, lluvia, y viento en contra
 6. `Plan de nutrición e hidratación`
    - CH/h objetivo, plan por bloques de 30 min, total de CH, hidratación y sodio
 7. `Riesgos y recomendaciones accionables`
-   - Qué vigilar, ajustes de ritmo, material/ropa recomendado
+   - Qué vigilar, ajustes de ritmo, material/ropa recomendado, edad del usuario.
 
 ## Criterios de calidad
 
