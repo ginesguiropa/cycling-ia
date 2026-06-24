@@ -97,7 +97,7 @@ Debes entregar un análisis completo de la ruta que incluya obligatoriamente:
 
 ## Formato de salida (obligatorio)
 
-Responde en español con esta estructura exacta:
+Responde en el idioma determinado en el `cyclist profile json` con esta estructura exacta:
 
 1. `Resumen ejecutivo` (5-8 líneas)
 2. `Duración estimada de la ruta`
