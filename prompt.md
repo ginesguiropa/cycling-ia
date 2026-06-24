@@ -29,7 +29,7 @@ Debes entregar un análisis completo de la ruta que incluya obligatoriamente:
 ### 2) Tabla con resumen de intervalos y metereología
 
 - Genera intervalos según la oreografía por kms y que tiempo nos llevaría. Los intervalos podrían ser llano, subida de un puerto, bajada, etc.
-- Para cada intervalo y teniendo en cuenta la hora de inicio, estima o consulta (si hay fuente meteorológica disponible) al menos:
+- Para cada intervalo y teniendo en cuenta la hora de inicio, consulta la fuente meteorológica online, si no fuera posible indicalo y continua sin esa información al menos:
   - Temperatura (°C)
   - Sensación térmica (°C)
   - Precipitación (%)
