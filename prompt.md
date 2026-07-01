@@ -49,8 +49,7 @@ Reglas:
 
 - Segmenta por perfil (llano, subida, bajada, falso llano) y/o por km.
 - Genera bloques temporales cada 30 minutos durante toda la actividad.
-- Usa meteorología online si está disponible; si no, indícalo una vez y continúa con estimaciones razonadas.
-- Podrias usar meteorología onlina a partir de las coordenadas y le fecha con OpenMeteo haciendo peticiones a su api publica (eg: https://api.open-meteo.com/v1/forecast?latitude=40.4168&longitude=-3.7038&hourly=temperature_2m,precipitation_probability,wind_speed_10m)
+- Usa la meteorología online con OpenMeteo haciendo peticiones a su api publica (eg: https://api.open-meteo.com/v1/forecast?latitude=40.4168&longitude=-3.7038) Si no puedes indicalo y continua con estimaciones razonables.
 
 Formato de salida:
 
