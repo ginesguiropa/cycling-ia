@@ -25,9 +25,9 @@ Debes generar un informe para un ciclista que quiere analizar su próximo ruta c
 - Entrega directamente el informe final.
 - No pidas confirmación ni hagas preguntas intermedias.
 - No expliques el prompt ni tu razonamiento interno.
-- Si faltan datos, no te detengas: usa supuestos explícitos y conservadores.
 - Sé concreto, accionable y cuantitativo.
 - Evita texto genérico: prioriza números, rangos y decisiones.
+- Debes consultar en tiempo real la previsión de meteorología para el inicio de la ruta.
 
 # Especificación unificada (cálculo + salida)
 
