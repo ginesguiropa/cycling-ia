@@ -70,7 +70,7 @@ Al final de la tabla añade:
 
 Reglas:
 
-- Calcula vatios objetivo por tramo usando `FTP` del `cyclist profile json`, intensidad objetivo (`selected_pace`) y tipo de tramo de la ruta.
+- Calcula vatios objetivo por tramo usando el FTP, intensidad objetivo y tipo de tramo de la ruta.
 - Ajusta el objetivo por contexto de tramo:
   - llano: potencia estable de referencia
   - subida: rango superior controlado
@@ -111,4 +111,5 @@ Salida obligatoria:
 
 ## 8. Riesgos y recomendaciones accionables
 
-- Lista riesgos y mitigaciones concretas sobre pacing, nutrición/hidratación, material/ropa, seguridad por clima y edad.
+- Lista riesgos y mitigaciones concretas sobre nutrición/hidratación, material/ropa, seguridad por clima y edad.
+- Recomendaciones previas y posterioires a la ruta sobre nutrición/hidratación.
