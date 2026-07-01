@@ -27,7 +27,8 @@ Debes generar un informe para un ciclista que quiere analizar su próximo ruta c
 - No expliques el prompt ni tu razonamiento interno.
 - Sé concreto, accionable y cuantitativo.
 - Evita texto genérico: prioriza números, rangos y decisiones.
-- Debes consultar en tiempo real la previsión de meteorología para el inicio de la ruta.
+- Debes consultar en tiempo real la previsión de meteorología para la ruta.
+- Ten en cuenta la zona horaria usando el localeIdentifier del perfil del usuario 
 
 # Especificación unificada (cálculo + salida)
 
