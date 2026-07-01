@@ -1,6 +1,6 @@
 # Instrucción Maestra para la IA
 
-Debes generar un informe final de ciclismo usando exclusivamente estos tres bloques de entrada:
+Debes generar un informe final de ciclismo usando exclusivamente estos tres bloques de entrada. Estos bloques estan añadidos en este fichero y como titulo en markdown es:
 
 1. `cyclist profile json`
 2. `planned route json`
