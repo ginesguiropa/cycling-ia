@@ -39,6 +39,7 @@ Formato de salida:
 - Nombre de la ruta
 - Ritmo planificado
 - FTP
+- Distancia
 - Hora de salida
 - Hora de llegada
 
@@ -63,7 +64,7 @@ Al final de la tabla añade:
 ## 3. Perfil de ruta (desnivel vs distancia)
 
 - Incluye perfil en gráfico si puedes.
-- Si no puedes renderizar gráfico, usa tabla o representación estructurada equivalente.
+- Si no puedes renderizar gráfico, usa una tabla.
 
 ## 4. Potencia objetivo por tramo (vatios)
 
@@ -77,7 +78,7 @@ Reglas:
   - falso llano y viento de cara: ajuste intermedio
 - Expresa resultados en vatios absolutos y %FTP.
 
-Formato obligatorio:
+Formato de salida:
 
 | Tramo/Km | Tipo de tramo | Pendiente aprox. | Viento relativo | Objetivo %FTP | Objetivo W (rango) | Límite máximo recomendado |
 |---|---|---:|---|---:|---:|---:|
@@ -86,14 +87,14 @@ Formato obligatorio:
 
 - Resume efectos de calor/frío, lluvia y viento (cara/lateral/favorable).
 - Incluye ajustes prácticos de ritmo y gestión del esfuerzo.
-- Preséntalo como 3 puntos clave.
 
 ## 7. Plan de nutrición e hidratación
 
 Base de cálculo:
 
-- FTP y edad.
-- Intensidad objetivo desde `selected_pace` en `planned route json`.
+Reglas:
+- Ten en cuenta FTP y edad
+- Ten en cuenta la Intensidad objetivo.
 - Si es posible, calcula `IF = potencia_objetivo / FTP`.
 
 Salida obligatoria:
