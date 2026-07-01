@@ -49,7 +49,7 @@ Reglas:
 
 - Segmenta por perfil (llano, subida, bajada, falso llano) y/o por km.
 - Genera bloques temporales cada 30 minutos durante toda la actividad.
-- Usa meteorología online, si no es posible, indícalo y realiza una suposición.
+- Usa meteorología online si está disponible; si no, indícalo una vez y continúa con estimaciones razonadas.
 
 Formato de salida:
 
